@@ -35,49 +35,68 @@ body{
   { 
     body{background:pink;}
 
+    #navbar ol li
+    {
+      display:inline;
+      margin-left:5px;
+      background:#0aa5fe;
+      padding:5px;
+      border-radius:10px;
+    }
+    #navbar
+    {
+      margin-top:-300px;
+      margin-left:-10px;
+    }
+    #navbar a:link
+    {
+      text-decoration:none;
+      color:white;
+      font-size:15px;
+    }
+
   #img
   {
-  width:700px;
-  margin-top:-100px;
-  margin-left:120px;
+  width:400px;
+  margin-left:90px;
   animation:zoomout 2s ease-out;
   }
   #a
   {
-  font-size:35px;
+  font-size:25px;
   width:100px;
   box-shadow:2px 2px 5px  black;
   margin-left:20px;
-  margin-top:-300px;
+  margin-top:-150px;
   
   animation:typin 2s steps(20) infinite alternate-reverse;
   }
   #b
   {
-  font-size:35px;
+  font-size:25px;
   margin-top:30px;
   margin-left:20px;
   animation:fromtop 2s,zoomout 2s ease-out;
   }
   #c
   {
-  font-size:35px;
+  font-size:25px;
   color:#0aa5fe;
-  margin-left:120px;
-  margin-top:-60px;
+  margin-left:80px;
+  margin-top:-47px;
   box-shadow:2px 3px;
-  width:210px;
+  width:140px;
   animation:fromtop 3s,zoomout s ease-out;
   }
   #d
   {
   margin-left:20px;
-  font-size:35px;
+  font-size:25px;
   margin-top:50px;
   color:#0aa5fe;
   box-shadow:2px 3px;
-  width:300px;
-  height:50px;
+  width:200px;
+  height:30px;
   text-wrap:nowrap;
   overflow:hidden;
   animation:typing 4s steps(20) infinite;
