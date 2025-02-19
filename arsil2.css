@@ -37,47 +37,47 @@ body{
 
   #img
   {
-  width:250px;
-  margin-top:-30px;
-  margin-left:57px;
+  width:700px;
+  margin-top:-100px;
+  margin-left:120px;
   animation:zoomout 2s ease-out;
   }
   #a
   {
-  font-size:15px;
-  width:60px;
+  font-size:35px;
+  width:100px;
   box-shadow:2px 2px 5px  black;
   margin-left:20px;
-  margin-top:-110px;
+  margin-top:-300px;
   
   animation:typin 2s steps(20) infinite alternate-reverse;
   }
   #b
   {
-  font-size:15px;
-  margin-top:20px;
+  font-size:35px;
+  margin-top:30px;
   margin-left:20px;
   animation:fromtop 2s,zoomout 2s ease-out;
   }
   #c
   {
-  font-size:15px;
+  font-size:35px;
   color:#0aa5fe;
-  margin-left:55px;
-  margin-top:-27px;
-  box-shadow:1px 1px;
-  width:80px;
+  margin-left:120px;
+  margin-top:-60px;
+  box-shadow:2px 3px;
+  width:210px;
   animation:fromtop 3s,zoomout s ease-out;
   }
   #d
   {
   margin-left:20px;
-  font-size:15px;
-  margin-top:20px;
+  font-size:35px;
+  margin-top:50px;
   color:#0aa5fe;
-  box-shadow:1px 1px;
-  width:120px;
-  height:18px;
+  box-shadow:2px 3px;
+  width:300px;
+  height:50px;
   text-wrap:nowrap;
   overflow:hidden;
   animation:typing 4s steps(20) infinite;
