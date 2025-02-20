@@ -1,0 +1,188 @@
+body{
+    background-image:url(images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+}
+
+@keyframes fromtop
+{
+    
+from{margin-top:-250px;}
+to{margin-top:px;}
+
+}
+
+
+header{
+    background:rgb(164, 202, 58);
+    width:100%;
+    height:100px;
+    margin-top:-10px;
+    border-radius:20px;
+    animation:fromtop 1.70s,zoomout 2s ease-out;
+}
+
+header img{
+    width:100px;
+    margin-left:40px;
+}
+#navbar ol li
+{
+    display:inline;
+    margin-left:20px;
+    padding:15px;
+    font-size:25px;
+    border-radius:30px;
+    
+}
+
+#navbar
+{
+    margin-top:-75px;
+    margin-left:920px;
+    
+}
+#navbar a:link
+{
+    text-decoration:none;
+    transition: .50s;
+    color:white;
+    
+}
+
+#navbar a:visited{color:white;}
+#navbar a:hover{color:cyan;}
+#navbar a:active{color:blue;}
+
+#navbar a:hover
+{
+    background:rgb(197, 88, 88);
+    padding:5px;
+    border-radius:10px;
+    
+    
+}
+
+@keyframes a1
+{
+ from{transform:scaleY(0)}
+to{transform:scaleY(1)}
+
+}
+
+
+.picstyle
+{
+width:22%;
+height:22%;
+margin:5%;
+box-shadow:10px 10px 10px gray;
+border-radius:170px;
+transition:0.50s;
+margin-top:500px;
+}
+
+#pic5
+{
+    margin-top:80px;
+}
+.picstyle:hover
+{
+transform:scale(1.50)
+
+}
+
+#h
+{
+    margin-top:-850px;
+    font-size:50px;
+    text-align: center;
+}
+
+@keyframes typin{
+    from{
+      width:1ch;
+    }
+    }
+  
+    
+
+
+#text
+{
+    font-size:46px;
+    margin-top:100px;
+    margin-left:20px;
+    color:white;
+    width:1600px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:typin 4s steps(100) infinite  alternate-reverse;
+    text-wrap:nowrap;
+    overflow:hidden;
+}
+#text2
+{
+    font-size:130px;
+    margin-top:-50px;
+    margin-left:40px;
+    color:white;
+    width:1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation:typin 4s steps(100) infinite;
+    text-wrap:nowrap;
+    overflow:hidden;  
+}
+
+#ab
+{
+    font-size:30px;
+    color:white;
+    margin-top:350px;
+    text-align: center;
+}
+#abo
+{
+    font-size:30px;
+    color:white;
+    text-align:justify;
+    padding:20px;
+    border-radius:20px;
+}
+#bg
+{
+    
+    background-image:url(images/a1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    border-radius: 10px;
+}
+footer{
+    background:gray;
+    width:100%;
+    height:auto;
+    margin-top:1500px;
+    text-align: center;
+    border-radius: 10px;
+    background-image:url(images/a1.jpg);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    color:white;
+
+}
+#gotop
+{
+position:fixed;
+top:85%;
+margin-left:90%;;
+}
+
+#gotop img
+{
+width:70%;
+opacity:0.60;
+transition:0.50s}
+
+#gotop img:hover
+{
+opacity:1;
+}
